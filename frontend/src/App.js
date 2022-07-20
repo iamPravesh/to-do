@@ -1,10 +1,10 @@
-import './App.css';
+import Navbar from './components/navbar/Navbar';
+import './styles/App.css';
 
-function App() {
+function App({ children }) {
   return (
     <div className="App">
-      {/* front end was damaged */}
-      <h1>hello to do app</h1>
+      <Navbar />
     </div>
   );
 }
