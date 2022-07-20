@@ -17,7 +17,7 @@ function App({ children }) {
         alignItems="center"
         padding="2rem"
       >
-        <p>ITs a content</p>
+        {children}
       </Flex>
     </div>
   );
