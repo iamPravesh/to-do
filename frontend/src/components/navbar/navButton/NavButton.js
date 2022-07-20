@@ -20,6 +20,7 @@ const NavButton = ({ children }) => {
             color={'white'}
             my={'1%'}
             onClick={handleClick}
+            _hover={{ bg: 'blue.700' }}
         >
             {children}
         </Button>
