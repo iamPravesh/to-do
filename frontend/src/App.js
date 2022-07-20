@@ -15,7 +15,7 @@ function App({ children }) {
         flexDirection="column"
         justifyContent="flex-start"
         alignItems="center"
-        padding="2rem"
+        padding="1.5rem"
       >
         {children}
       </Flex>
