@@ -13,12 +13,9 @@ const Navbar = () => {
             alignItems="center"
             padding="2rem"
         >
-            <NavButton>
-                Daily to-do
-            </NavButton>
-            <NavButton>
-                Weekly to-do
-            </NavButton>
+            <NavButton to={'/'} title={'Home'} />
+            <NavButton to={'/daily'} title={'Daily to-do'} />
+            <NavButton to={'/weekly'} title={'Weekly to-do'} />
         </Flex>
     )
 }

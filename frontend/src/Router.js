@@ -9,7 +9,10 @@ const Router = () => {
     return (
         <App>
             <Routes>
-                <Route path="/" component={<Home />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/weekly" element={<p>weekly</p>} />
+                <Route path="/daily" element={<p>daily</p>} />
+                <Route path="/*" element={<p>OOOOPS this page dont exist</p>} />
             </Routes>
         </App>
     )
