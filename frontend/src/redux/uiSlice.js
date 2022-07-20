@@ -9,7 +9,6 @@ export const userSlice = createSlice({
     initialState,
     reducers: {
         setActive: (state, action) => {
-            console.log('clicked', action.payload);
             state.isActive = action.payload;
         }
     }
