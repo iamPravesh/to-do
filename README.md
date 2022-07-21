@@ -8,7 +8,7 @@ Tech used:
   React js
   Node js
   
-#to run the applicatin
+#to run the application
 >clone the project
   in backend folder, add .env file
   run yarn 
